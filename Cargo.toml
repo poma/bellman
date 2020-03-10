@@ -19,7 +19,7 @@ cfg-if = "0.1"
 
 #pairing = {package = "pairing_ce", path = "../pairing" }
 #pairing = {package = "pairing_ce", version = "0.19" }
-pairing_ce = { git = "https://github.com/poma/pairing", branch = "expose-points" }
+pairing = { package = "pairing_ce", git = "https://github.com/poma/pairing", branch = "expose-points" }
 byteorder = "1"
 
 futures= {package = "futures", version = "0.3", default_features = false, features = ["executor"]}
